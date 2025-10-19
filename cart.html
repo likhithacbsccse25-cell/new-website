@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cart • DelishBite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="page-cart">
+  <header>
+    <div class="brand"><h1><a href="index.html">DelishBite</a></h1></div>
+    <nav>
+      <a class="nav-link" href="shop.html">Shop</a>
+      <a class="nav-link" href="signin.html">Sign In</a>
+      <button id="toggle-theme" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <main class="cart-page">
+    <h2>Your Order</h2>
+    <ul id="cart-list-page" class="cart-list"></ul>
+    <p class="cart-total">Total: ₹<span id="total-price-page">0</span></p>
+    <div class="cart-actions">
+      <button id="checkout-btn-page" class="btn">Checkout</button>
+      <button id="clear-cart-btn" class="btn ghost">Clear</button>
+    </div>
+  </main>
+
+  <canvas id="confetti-canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>

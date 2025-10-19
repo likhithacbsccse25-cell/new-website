@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DelishBite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="page-index">
+  <header>
+    <div class="brand">
+      <h1>DelishBite</h1>
+    </div>
+    <nav>
+      <a class="nav-link" href="shop.html">Shop 🛒</a>
+      <a class="nav-link" href="signin.html">Sign In</a>
+      <button id="toggle-theme" aria-label="Toggle theme">🌙</button>
+      <button id="cart-btn" aria-label="Open cart">Cart <span id="cart-count">0</span></button>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-inner">
+      <h2>Welcome to DelishBite</h2>
+      <p>Tasty food delivered with love. Visit our shop to build your order and enjoy delightful animations while you add items to your cart.</p>
+      <div class="hero-ctas">
+        <a class="btn" href="shop.html">Start Ordering</a>
+        <a class="btn ghost" href="signin.html">Sign In</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-food">🍜</div>
+    </div>
+  </main>
+
+  <canvas id="confetti-canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
